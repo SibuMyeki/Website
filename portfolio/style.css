@@ -1,0 +1,58 @@
+/* style for navigation*/
+
+div.scrollmenu {
+  background-color: #333333;
+  overflow: auto;
+  white-space: nowrap;
+  padding-left: 1000px;
+  border-radius: 100px;
+  
+}
+
+div.scrollmenu a {
+  display: flex;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  float: right;
+
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+}
+
+/*style for webpage responsiveness*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+header, nav, main, footer {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  nav ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
+}
